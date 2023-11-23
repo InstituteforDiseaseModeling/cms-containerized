@@ -6,13 +6,15 @@ Includes Python interface example using [Python.NET](https://pythonnet.github.io
 
 ### Get a local copy of the docker container image
 
-**Option 1- pull the image from Docker Hub:**
+**Option 1- skip to examples below and let Docker pull the requisite image**
+
+**Option 2- pull the image from Docker Hub:**
 
 ```bash
 docker pull clorton/idmcms:1.0
 ```
 
-**Option 2- build the image locally:**
+**Option 3- build the image locally:**
 
 ```bash
 docker build --tag clorton/idmcms:1.0 .
@@ -21,6 +23,8 @@ docker build --tag clorton/idmcms:1.0 .
 ### Run a Model with CMS
 
 Options:
+
+Note: the examples below use Unix/Linux bash syntax to get the current directory, `$(pwd)`. If running on Windows, explicitly list the current path in place of `$(pwd)`.
 
 1. _Run the default model/command in the container (`python3 /cms/seir.py`)._
 
