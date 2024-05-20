@@ -11,13 +11,13 @@ Includes Python interface example using [Python.NET](https://pythonnet.github.io
 **Option 2- pull the image from Docker Hub:**
 
 ```bash
-docker pull clorton/idmcms:1.0
+docker pull clorton/idmcms:1.1
 ```
 
 **Option 3- build the image locally:**
 
 ```bash
-docker build --tag clorton/idmcms:1.0 .
+docker build --tag clorton/idmcms:1.1 .
 ```
 
 ### Run a Model with CMS
